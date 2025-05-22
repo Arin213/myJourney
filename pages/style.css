@@ -7,5 +7,12 @@ body {
 }
 
 .custom-navbar-spring{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.6);
+
+}
+
+.subject {
+    color: #ca1ea2;
+    font-size: 20px;
+    font-weight: bold;
 }
