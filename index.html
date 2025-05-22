@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        .mb-auto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.6);
+            font-family: fantasy;
+        }
+
+        /* taking the image of author to the center  */
+        .left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: auto;
+        }
+
+        /* add the iamge to the background of page or give image to the page */
+        body {
+            background-image: url(./green\ trees.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* transparicy */
+        .styl {
+            background-color: rgba(0, 0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+
+        .container {
+            background-image: url(./moon\ shine.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        /* customizing the background of navbar */
+        .custom-navbar {
+            background-color: rgba(0, 0, 0, 0.6);
+            /* border-radius: 10px; */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg custom-navbar navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand lead fw-bold" href="#">Journey</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/spring.html"style="color:white;">Spring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./summer.html" style="color:white;">Summer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./autumn.html" style="color:white;">Autumn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color:white;">Winter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- adding cover page from the bootstrap -->
+    <header class="mb-auto">
+        <div>
+            <h1 class="float-md-start mb-0 pb-0 text-white">My Quiet Journey</h1>
+        </div>
+    </header>
+
+    <!-- adding blog part from the bootstrap -->
+    <div class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis mb-2 styl">
+            <div class="row">
+                <!-- this take 6 half part left  -->
+                <div class="col">
+                    <img src="./love hand.jpg" alt="love hands" class="img-fluid rounded"
+                        style="height: 400px; width: 500px ;object-fit: cover;">
+                </div>
+                <!-- this take 6 half part right  -->
+                <div class="col-md-6">
+                    <h1 class=" lead display-4 fst-italic text-white">Begining of a New Chapter!</h1>
+                    <p class="lead my-3 text-white font-weight-bold">
+                        <b><em>The beginning:</em> How it is so badly to get suppressed by the desire of own virtue?...
+                            We are fighting for the freedom of what is still hard to find — the answer to the unknown
+                            question.
+                            Wandering like the thirsty for an abundance of knowledge, wanting to burst all at once and
+                            let
+                            all things halt forever.
+                            After all, I asked myself, to whom belongs the responsibility of this consequence?</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- adding another blog part of the bootstrap -->
+    <div class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis styl">
+            <div class="row">
+                <!-- this take 6 half part left -->
+                <div class="col-md-6">
+                    <h1 class=" lead display-4 fst-italic text-white">Theme!</h1>
+                    <p class="lead my-3 text-white font-weight-bold">
+                        <em>Who can understand the human’s heart?</em> who has thought that once the story had sad
+                        ending
+                        will have the
+                        continue sequence of next story with the same characters?
+                        My story was in the edge of nowhere and I was desperate and agony.
+                        I thought I will never have chance to be loved. I was alone and decided myself that my life was
+                        gifted
+                        with this burden of heart’s suffering.Like the <em>"burden with the Glorious
+                            Prupose"-loki</em></br>
+
+                        <em>"At one time or another, we all try to silence painful emotions.
+                            But when we succeed in feeling nothing, we lose the only means we have of knowing what we
+                            want and why.</em></br>
+                        - The gift of pain(The Examined Life)
+
+                    </p>
+                </div>
+
+                <!-- this take 6 half part right  -->
+                <div class="col-md-6 left">
+                    <img src="./moments capture.jpg" alt="author" class="img-fluid rounded" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- adding  bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+<footer class="text-center text-white py-4" style="background-color: rgba(0,0,0,0.5);">
+    <div class="container">
+        <p class="mb-1">&copy; 2025 My Quiet Journey. All rights reserved.</p>
+        <small>Made with <span style="color: #e25555;">&#10084;</span> by <b>Arin</b></small>
+    </div>
+</footer>
+
+</html>
